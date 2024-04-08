@@ -1,0 +1,14 @@
+<select (change)="switch_languge()" [(ngModel)]="locale">
+    <option value="hi">Hi</option>
+    <option value="mr">Mr</option>
+    <option value="en-US">en-US</option>
+</select>
+
+<h1 i18n>component instance has a lifecycle</h1>
+<h1 i18n>{{ locale }} component instance {{ locale }} has a lifecycle</h1>
+<h1 i18n *ngFor="let row of array">component {{ locale }} instance has a lifecycle</h1>
+<div i18n *ngIf="status == true">component {{ locale }} instance
+    <p>my name is ankush</p>
+    has a lifecycle
+</div>
+<h1 i18n>{{ date | date }} component instance  has a lifecycle</h1>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="7016648340519310032" datatype="html">
+        <source>component instance has a lifecycle</source><target>घटक उदाहरणात एक लाइफसायकल असते</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6434552376231421119" datatype="html">
+        <source><x id="INTERPOLATION" equiv-text="{{ locale }}"/> component instance <x id="INTERPOLATION" equiv-text="{{ locale }}"/> has a lifecycle</source><target><x id="INTERPOLATION" equiv-text="{{ locale }}"/> घटक उदाहरण <x id="INTERPOLATION" equiv-text="{{ locale }}"/> एक लाइफसायकल आहे</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3817598011736104589" datatype="html">
+        <source>component <x id="INTERPOLATION" equiv-text="{{ locale }}"/> instance has a lifecycle</source><target>घटक <x id="INTERPOLATION" equiv-text="{{ locale }}"/> उदाहरणात एक लाइफसायकल आहे</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4374022247702078008" datatype="html">
+        <source>component <x id="INTERPOLATION" equiv-text="{{ locale }}"/> instance <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>my name is ankush<x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/> has a lifecycle
+</source><target>घटक <x id="INTERPOLATION" equiv-text="{{ locale }}"/> उदाहरण <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/> माझे नाव अंकुश आहे <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/> एक लाइफसायकल आहे</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">10,13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6136058307479084562" datatype="html">
+        <source><x id="INTERPOLATION" equiv-text="{{ date | date }}"/> component instance has a lifecycle</source><target><x id="INTERPOLATION" equiv-text="{{ date | date }}"/> घटक उदाहरणात एक लाइफसायकल असते</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,48 @@
+{
+  "name": "language-i18n",
+  "version": "0.0.0",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "start:hi": "ng serve --configuration=hi",
+    "start:mr": "ng serve --configuration=mr",
+    "build": "ng build",
+    "build:hi": "ng build --configuration=hi",
+    "build:mr": "ng build --configuration=mr",
+    "build:multi-lang":"ng build --configuration=hi && ng build --configuration=en",
+    "watch": "ng build --watch --configuration development",
+    "test": "ng test",
+    "i18n:extract": "ng extract-i18n --output-path src/locale"
+  },
+  "private": true,
+  "dependencies": {
+    "@angular/animations": "^16.0.0",
+    "@angular/common": "^16.0.0",
+    "@angular/compiler": "^16.0.0",
+    "@angular/core": "^16.0.0",
+    "@angular/forms": "^16.0.0",
+    "@angular/platform-browser": "^16.0.0",
+    "@angular/platform-browser-dynamic": "^16.0.0",
+    "@angular/router": "^16.0.0",
+    "rxjs": "~7.8.0",
+    "translatte": "^3.0.1",
+    "tslib": "^2.3.0",
+    "xlifftranslate": "^0.0.6",
+    "xml2js": "^0.6.0",
+    "zone.js": "~0.13.0"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "^16.0.4",
+    "@angular/cli": "~16.0.4",
+    "@angular/compiler-cli": "^16.0.0",
+    "@angular/localize": "^16.1.1",
+    "@types/jasmine": "~4.3.0",
+    "jasmine-core": "~4.6.0",
+    "karma": "~6.4.0",
+    "karma-chrome-launcher": "~3.2.0",
+    "karma-coverage": "~2.2.0",
+    "karma-jasmine": "~5.1.0",
+    "karma-jasmine-html-reporter": "~2.0.0",
+    "typescript": "~5.0.2"
+  }
+}
